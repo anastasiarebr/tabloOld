@@ -1,0 +1,83 @@
+$bgd-blue: rgba(30, 158, 230, 0.19)
+$talon-blue: #3F88C5
+$talon-grey: #4F4F4F
+    
+.main
+  display: flex
+  justify-content: space-between
+  padding: 0 50px
+.titles
+  padding: 0px 50px
+  display: flex
+  justify-content: space-between
+.title
+  width: 870px
+  display: flex
+  justify-content: space-between
+  padding: 10px 176px 12px 75px
+  span
+    font-weight: normal
+    font-size: 36px
+    color: #1F1F1F
+
+.column
+  display: flex
+  justify-content: space-between
+  &-items
+    display: flex
+    max-height: 950px
+    flex-direction: column
+    flex-wrap: wrap
+  &-item
+    position: relative
+    width: 870px
+    display: flex
+    justify-content: space-between
+    margin-right: 47px
+    padding: 28px 0 54px 0
+.bgdblue
+  background: $bgd-blue
+.data-wraper
+  display: flex
+.person
+  width: 435px
+  font-family: 'VAG World', 'Roboto', sans-serif
+  font-size: 120px
+  line-height: 87px
+  color: $talon-blue
+  text-align: center
+.table
+  width: 435px
+  font-family: 'VAG World', 'Roboto', sans-serif
+  font-size: 120px
+  line-height: 87px
+  color: $talon-grey
+  text-align: center
+.arrow
+  position: absolute
+  left: 410px
+  top: 60px
+  // transform: translateY(-50%)
+
+.body
+  position: relative
+.newItem
+  position: absolute
+  left: 50%
+  top: 50%
+  transform: translate(-50%, -50%)
+  width: 1920px
+  background: #FFFFFF
+  color: #4F4F4F
+  font-size: 64px
+  font-weight: bold
+  text-align: center
+  padding: 118px 0
+  span
+    color: #EB5757
+
+
+.fade-enter-active, .fade-leave-active
+  transition: opacity .5s
+.fade-enter, .fade-leave-to
+  opacity: 0
